@@ -6,6 +6,7 @@ public class TestLink {
 	@Test
 	public static void Test() {
 		System.out.println("Inside TestLink Class");
+		System.out.println("Inside TestLink Class2");
 	}
 	
 
