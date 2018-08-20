@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105562" started-at="2018-08-20T16:20:03Z" finished-at="2018-08-20T16:21:49Z">
+  <suite name="Default suite" duration-ms="184620" started-at="2018-08-20T17:54:25Z" finished-at="2018-08-20T17:57:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105562" started-at="2018-08-20T16:20:03Z" finished-at="2018-08-20T16:21:49Z">
+    <test name="Default test" duration-ms="184620" started-at="2018-08-20T17:54:25Z" finished-at="2018-08-20T17:57:29Z">
       <class name="org.practiceset1.testb.script.TestFbLogin">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="preCondition" is-config="true" duration-ms="65329" started-at="2018-08-20T16:20:04Z" finished-at="2018-08-20T16:21:09Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="preCondition" is-config="true" duration-ms="85716" started-at="2018-08-20T17:54:25Z" finished-at="2018-08-20T17:55:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="mainScreen()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="mainScreen" duration-ms="28565" started-at="2018-08-20T16:21:09Z" finished-at="2018-08-20T16:21:37Z">
+        <test-method status="PASS" signature="mainScreen()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="mainScreen" duration-ms="84388" started-at="2018-08-20T17:55:51Z" finished-at="2018-08-20T17:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainScreen -->
-        <test-method status="PASS" signature="postcondition()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="postcondition" is-config="true" duration-ms="11485" started-at="2018-08-20T16:21:37Z" finished-at="2018-08-20T16:21:49Z">
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:org.practiceset1.testb.script.TestFbLogin@1bce4f0a]" name="postcondition" is-config="true" duration-ms="10243" started-at="2018-08-20T17:57:18Z" finished-at="2018-08-20T17:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->

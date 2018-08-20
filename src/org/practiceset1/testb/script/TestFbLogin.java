@@ -1,9 +1,11 @@
 package org.practiceset1.testb.script;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,6 +29,9 @@ public class TestFbLogin {
 			driver.findElement(By.id("email")).sendKeys("raunaksingh7600@gmail.com");
 			driver.findElement(By.id("pass")).sendKeys("fakeaccount");
 			driver.findElement(By.xpath("//input[@value='Log In']")).click();
+			driver.findElement(By.name("q")).sendKeys("pubg");
+			//List<WebElement>allList=driver.findElements(By.xpath(""));
+			
 			
 		}
 		@AfterMethod()
