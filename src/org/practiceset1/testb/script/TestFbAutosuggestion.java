@@ -8,6 +8,9 @@ public class TestFbAutosuggestion {
 	public static void Test() {
 		System.out.println("Inside autosuggestion");
 	}
-	
+	@Test
+	public static void Test2() {
+		System.out.println("Inside autosuggestion");
+	}
 
 }
